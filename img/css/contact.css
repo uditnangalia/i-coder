@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.contact-content{
+        display: block;
+        height: 395px;
+        height: 80vh;
+        /* background-color: rgb(222, 222, 236); */
+        margin-top: 32px;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        position: relative;
+        overflow: hidden;
+        font-family: var(--font1);
+    }
+    
+    .contact-content::after{
+        top: 0;
+        content: "";
+        background-image: url('../img/home.jpg');
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 0.15;
+        z-index: -1;
+    
+    }
+
+   h1{
+       font-family: var(--font1);
+       text-align: center;
+   }
+  

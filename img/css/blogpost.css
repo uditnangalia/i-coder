@@ -1,0 +1,27 @@
+.post-img{
+    height: 474px;
+    overflow: hidden;
+}
+.post-img img{
+    height: 409px;
+    width: 79%;
+    margin-left: 105px;
+}
+
+.blog-post-content{
+    /* background-color: rebeccapurple; */
+    margin: auto;
+    max-width: 60vw;
+}
+
+.blog-post-content h1{
+    text-align: center;
+}
+
+.blog-post-content p{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
